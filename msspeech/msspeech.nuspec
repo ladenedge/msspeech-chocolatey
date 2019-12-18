@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>msspeech</id>
+    <version>11.0.7400.345</version>
+    <owners>ladenedge</owners>
+    <title>Microsoft Speech Platform Runtime</title>
+    <authors>Microsoft</authors>
+    <copyright>2011 Microsoft</copyright>
+    <projectUrl>https://developer.microsoft.com/en-us/windows/speech</projectUrl>
+    <iconUrl>https://msdnshared.blob.core.windows.net/media/2015/12/MS-Logo-transparent-background.png</iconUrl>
+    <packageSourceUrl>https://github.com/ladenedge/msspeech-chocolatey</packageSourceUrl>
+    <licenseUrl>https://download.microsoft.com/download/A/6/4/A64012D6-D56F-4E58-85E3-531E56ABC0E6/Speech%20Platform%20Runtime%2011%20Licence.rtf</licenseUrl>
+    <releaseNotes>http://go.microsoft.com/fwlink/?LinkID=224076</releaseNotes>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>msspeech runtime</tags>
+    <summary>The Microsoft Speech Platform Runtime is used by Server-based speech applications.</summary>
+    <description>The Microsoft Speech Platform Runtime contains both a managed (.NET) and native (COM) API for developing Server-based speech applications.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>msspeech.sr.tele.en-us</id>
+    <id>msspeech-sr-tele-en-us</id>
     <version>11.0.7400.335</version>
     <owners>ladenedge</owners>
     <title>Microsoft Speech Recognition Language TELE (en-US)</title>

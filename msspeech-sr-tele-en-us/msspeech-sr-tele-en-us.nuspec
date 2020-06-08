@@ -2,9 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>msspeech-sr-tele-en-us</id>
-    <version>11.0.7400.335</version>
+    <version>11.0.7400.336</version>
     <owners>ladenedge</owners>
     <title>Microsoft Speech Recognition Language TELE (en-US)</title>
+	<language>en-US</language>
     <authors>Microsoft</authors>
     <copyright>2011 Microsoft</copyright>
     <projectUrl>https://developer.microsoft.com/en-us/windows/speech</projectUrl>

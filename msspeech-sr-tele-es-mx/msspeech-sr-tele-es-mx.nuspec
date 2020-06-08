@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>msspeech-sr-tele-es-mx</id>
+    <version>11.0.7400.336</version>
+    <owners>ladenedge</owners>
+    <title>Microsoft Speech Recognition Language TELE (es-MX)</title>
+	<language>es-MX</language>
+    <authors>Microsoft</authors>
+    <copyright>2011 Microsoft</copyright>
+    <projectUrl>https://developer.microsoft.com/en-us/windows/speech</projectUrl>
+    <iconUrl>https://msdnshared.blob.core.windows.net/media/2015/12/MS-Logo-transparent-background.png</iconUrl>
+    <packageSourceUrl>https://github.com/ladenedge/msspeech-chocolatey</packageSourceUrl>
+    <licenseUrl>https://download.microsoft.com/download/4/0/D/40D6347A-AFA5-417D-A9BB-173D937BEED4/SR%20Engine%20Supplement%20License.rtf</licenseUrl>
+    <releaseNotes>http://go.microsoft.com/fwlink/?LinkID=224076</releaseNotes>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>msspeech language</tags>
+    <summary>Speech recognition for the supported language.</summary>
+    <description>The Microsoft Speech Platform relies on language packs to provide speech recognition capabilities in different languages.  The 'sr' in the name refers to speech recognition, while the 'tele' means the recognition language is designed to work with low-quality audio input, such as that from a telephone or desktop microphone.</description>
+    <dependencies>
+      <dependency id="msspeech" version="11.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

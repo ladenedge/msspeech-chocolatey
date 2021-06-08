@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>msspeech-tts-en-us-helen.offline</id>
+    <version>11.0.7400.335</version>
+    <owners>ladenedge</owners>
+    <title>Microsoft Text-to-Speech Voice (en-US, Helen)</title>
+    <authors>Microsoft</authors>
+    <copyright>2011 Microsoft</copyright>
+    <projectUrl>https://developer.microsoft.com/en-us/windows/speech</projectUrl>
+    <iconUrl>https://msdnshared.blob.core.windows.net/media/2015/12/MS-Logo-transparent-background.png</iconUrl>
+    <packageSourceUrl>https://github.com/ladenedge/msspeech-chocolatey</packageSourceUrl>
+    <licenseUrl>https://download.microsoft.com/download/4/0/D/40D6347A-AFA5-417D-A9BB-173D937BEED4/SR%20Engine%20Supplement%20License.rtf</licenseUrl>
+    <releaseNotes>http://go.microsoft.com/fwlink/?LinkID=224076</releaseNotes>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>msspeech voice</tags>
+    <summary>Voice generation for the supported language.</summary>
+    <description>The Microsoft Speech Platform relies on language packs to provide text-to-speech capabilities in different languages.  The 'tts' in the name refers to text-to-speech.</description>
+    <dependencies>
+      <dependency id="msspeech.offline" version="11.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="**" exclude="*.nuspec;*.nupkg" target="" />
+  </files>
+</package>
